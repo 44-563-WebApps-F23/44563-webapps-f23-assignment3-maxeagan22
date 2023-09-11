@@ -58,5 +58,21 @@
                     <td>3-4 hours</td>
                 </tr>
             </table>
+            <hr>
+            <h4>Appending files using htaccess</h4>
+
+
+            <blockquote>
+                <p>Auto prepend PHP file using htaccess relative to htaccess file?</p>
+                <a href="https://stackoverflow.com/questions/9045445/auto-prepend-php-file-using-htaccess-relative-to-htaccess-file">Stack Overflow</a></cite>
+    
+            </blockquote>
+
+            <pre>
+                <code>
+                    php_value auto_prepend_file "/real/path/to/file/functions.php"
+                    php_value auto_append_file "/real/path/to/file/footer.php"
+                </code>
+            </pre>
     </body>
 </html>
